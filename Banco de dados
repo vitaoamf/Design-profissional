@@ -1,0 +1,32 @@
+-- Criação da tabela AUTOR
+CREATE TABLE AUTOR (
+    autor_id INTEGER PRIMARY KEY,
+    nome_autor VARCHAR(100) NOT NULL,
+    nacionalidade VARCHAR(50)
+);
+
+-- Criação da tabela LIVRO
+-- A coluna autor_id é a chave estrangeira (FOREIGN KEY) que liga o livro ao seu autor.
+CREATE TABLE LIVRO (
+    livro_id INTEGER PRIMARY KEY,
+    titulo VARCHAR(200) NOT NULL,
+    ano_publicacao INTEGER,
+    autor_id INTEGER,
+    FOREIGN KEY (autor_id) REFERENCES AUTOR(autor_id)
+);
+
+
+----------------------------------------------------------
+
+-- Inserindo autores
+INSERT INTO AUTOR (autor_id, nome_autor, nacionalidade) VALUES 
+(1, 'Machado de Assis', 'Brasileira'),
+(2, 'Jane Austen', 'Inglesa'),
+(3, 'Gabriel Garcia Marquez', 'Colombiana');
+
+-- Inserindo livros
+INSERT INTO LIVRO (livro_id, titulo, ano_publicacao, autor_id) VALUES
+(101, 'Dom Casmurro', 1899, 1),
+(102, 'Memorias Postumas de Bras Cubas', 1881, 1),
+(201, 'Orgulho e Preconceito', 1813, 2),
+(301, 'Cem Anos de Solidao', 1967, 3);
