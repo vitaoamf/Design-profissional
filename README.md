@@ -6,7 +6,7 @@ Este é um projeto simples desenvolvido na linguagem C que calcula a média arit
 
 Tecnologias Utilizadas
 * **Linguagem:** C
-* **Compilador:** GCC (Gnu Compiler Collection)
+* **Compilador:** DBG
 
 Funcionalidades
 * Permite a entrada de três números inteiros.
