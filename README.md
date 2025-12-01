@@ -20,6 +20,7 @@ Para rodar este projeto, você precisa ter um compilador C (como o GCC) instalad
 1. Clone o Repositório:
    
 git clone [https://github.com/SeuUsuario/CalculadoraMedia_C.git](https://github.com/SeuUsuario/CalculadoraMedia_C.git)
+
 cd CalculadoraMedia_C
 
 
