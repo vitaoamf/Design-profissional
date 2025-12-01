@@ -6,7 +6,7 @@ int main() {
     int num1, num2, num3; 
     float media;
 
-    printf("--- Calculadora de Media Aritmetica ---\n");
+    printf("Calculadora de Media Aritmetica \n");
     printf("Digite o primeiro numero inteiro: ");
 
     scanf("%d", &num1); 
@@ -27,3 +27,4 @@ int main() {
     return 0;
 
 }
+
