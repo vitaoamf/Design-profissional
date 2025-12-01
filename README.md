@@ -74,7 +74,3 @@ Listar todos os livros e seus autores:**
     FROM LIVRO L
     JOIN AUTOR A ON L.autor_id = A.autor_id;
     ```
-
----
-
-Este projeto é fácil de manter e demonstra que você entende os fundamentos de modelagem e SQL. Gostaria de ajuda para criar o **README de Perfil** que linkaria para este projeto?
