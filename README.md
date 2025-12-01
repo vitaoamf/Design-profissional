@@ -1,5 +1,3 @@
-ione
-
 
 # 📚 Calculadora de Média Aritmética em C
 
